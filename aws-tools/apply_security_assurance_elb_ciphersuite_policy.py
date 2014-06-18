@@ -39,7 +39,7 @@ policy_attributes = {"ADH-AES128-GCM-SHA256": False,
                     "CAMELLIA128-SHA": True,
                     "CAMELLIA256-SHA": True,
                     "DES-CBC3-MD5": False,
-                    "DES-CBC3-SHA": False,
+                    "DES-CBC3-SHA": True,
                     "DES-CBC-MD5": False,
                     "DES-CBC-SHA": False,
                     "DHE-DSS-AES128-GCM-SHA256": True,
@@ -95,7 +95,7 @@ policy_attributes = {"ADH-AES128-GCM-SHA256": False,
                     "PSK-RC4-SHA": False,
                     "RC2-CBC-MD5": False,
                     "RC4-MD5": False,
-                    "RC4-SHA": True,
+                    "RC4-SHA": False,
                     "SEED-SHA": False}
 
 policy_name = 'Mozilla-Security-Assurance-Ciphersuite-Policy-v-1-2'
